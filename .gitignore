@@ -1,0 +1,13 @@
+.build/
+.swiftpm/
+*.app/
+*.app
+*.dmg
+dist/
+.DS_Store
+# secrets: never commit update or signing keys
+*.pem
+*.p12
+*.key
+sparkle_private*
+.env*
